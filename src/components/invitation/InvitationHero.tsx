@@ -31,11 +31,11 @@ export function InvitationHero() {
         <div className="flex flex-col justify-center px-6 md:px-12 py-12 md:py-0 order-2 md:order-1">
           {/* Label */}
           <p
-            className="mb-6 tracking-[0.3em] uppercase"
+            className="mb-6 tracking-[0.2em] uppercase"
             style={{
               fontFamily: "'Montserrat', sans-serif",
-              fontWeight: 600,
-              fontSize: "0.65rem",
+              fontWeight: 700,
+              fontSize: "0.875rem",
               color: "#F47820",
             }}
           >

@@ -103,7 +103,7 @@ export function WelcomeScreen({ onYes, visible }: WelcomeScreenProps) {
 
         {/* Event label */}
         <p
-          className="mb-4 tracking-[0.25em] uppercase text-xs font-medium"
+          className="mb-4 tracking-[0.2em] uppercase text-sm font-bold"
           style={{ color: "#F47820", fontFamily: "'Montserrat', sans-serif" }}
         >
           {eventConfig.eventType} · {eventConfig.date}
