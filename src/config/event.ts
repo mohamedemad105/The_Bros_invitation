@@ -5,7 +5,7 @@ export const eventConfig = {
   brandName: "The Bros",
   tagline: "Coffee & More",
   eventType: "Soft Opening",
-  date: "02 October 2026",
+  date: "Friday, 02 October 2026",
   // Change the time here — it reflects everywhere automatically
   time: "6:00 PM",
   eventDate: "2026-10-02T18:00:00+03:00",
@@ -25,10 +25,14 @@ export const eventConfig = {
       url: "https://www.facebook.com/share/1CGtMcHc7T/?mibextid=wwXIfr",
       handle: "The Bros",
     },
+    tiktok: {
+      url: "https://www.tiktok.com/@thebros.eg",
+      handle: "@thebros.eg",
+    },
   },
 
   audioSrc: "/audio/opening-song.mp3",
 
   heroImage:
-    "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?w=1200&h=900&fit=crop&auto=format",
+    "/images/invitation2.jpg",
 };

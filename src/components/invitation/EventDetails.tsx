@@ -70,11 +70,10 @@ export function EventDetails() {
             href={eventConfig.location.mapsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-8 py-4 text-sm font-bold tracking-[0.15em] uppercase transition-all duration-200 hover:gap-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+            className="inline-flex items-center gap-3 px-8 py-4 text-sm font-bold tracking-[0.15em] uppercase text-[#F5F2EC] transition-all duration-200 hover:gap-4 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
             style={{
               fontFamily: "'Montserrat', sans-serif",
               backgroundColor: "#1B35CC",
-              color: "#F5F2EC",
             }}
             aria-label="Open location in Google Maps"
           >

@@ -8,7 +8,7 @@ export function InvitationFooter() {
       style={{ backgroundColor: "#1B35CC" }}
       aria-label="Footer"
     >
-      <Logo size="lg" variant="white" showTagline={true} />
+      <Logo image className="h-[120px] w-[180px] object-contain brightness-0 invert" />
 
       <div
         className="mt-8 w-12 border-t"

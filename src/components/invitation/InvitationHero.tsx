@@ -13,7 +13,10 @@ export function InvitationHero() {
         className="flex items-center justify-between px-6 md:px-12 pt-8 pb-4"
         style={{ borderBottom: "1px solid rgba(27, 53, 204, 0.10)" }}
       >
-        <Logo size="sm" variant="blue" showTagline={true} />
+        <Logo
+          image
+          className="h-[102px] w-[140px] object-contain"
+        />
         <span
           className="tracking-[0.25em] uppercase text-xs font-semibold"
           style={{ fontFamily: "'Montserrat', sans-serif", color: "#F47820" }}

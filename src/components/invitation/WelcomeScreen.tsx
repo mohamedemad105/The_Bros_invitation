@@ -1,5 +1,6 @@
 import { useState, useRef, useCallback, useEffect } from "react";
 import { Logo } from "../brand/Logo";
+import { eventConfig } from "../../config/event";
 
 interface WelcomeScreenProps {
   onYes: () => void;
@@ -94,7 +95,10 @@ export function WelcomeScreen({ onYes, visible }: WelcomeScreenProps) {
       <div className="relative z-10 flex flex-col items-center px-6 text-center max-w-lg w-full">
         {/* Logo */}
         <div className="mb-10">
-          <Logo size="lg" variant="blue" showTagline={true} />
+          <Logo
+            image
+            className="h-[190px] w-[260px] object-contain"
+          />
         </div>
 
         {/* Event label */}
@@ -102,7 +106,7 @@ export function WelcomeScreen({ onYes, visible }: WelcomeScreenProps) {
           className="mb-4 tracking-[0.25em] uppercase text-xs font-medium"
           style={{ color: "#F47820", fontFamily: "'Montserrat', sans-serif" }}
         >
-          Soft Opening · 02 October 2026
+          {eventConfig.eventType} · {eventConfig.date}
         </p>
 
         {/* Main headline */}

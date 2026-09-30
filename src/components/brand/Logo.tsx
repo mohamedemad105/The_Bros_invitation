@@ -2,6 +2,7 @@ interface LogoProps {
   size?: "sm" | "md" | "lg" | "xl";
   variant?: "blue" | "white" | "orange";
   showTagline?: boolean;
+  image?: boolean;
   className?: string;
 }
 
@@ -16,8 +17,19 @@ export function Logo({
   size = "md",
   variant = "blue",
   showTagline = true,
+  image = false,
   className = "",
 }: LogoProps) {
+  if (image) {
+    return (
+      <img
+        src="/images/logo.png"
+        alt="The Bros Coffee & More"
+        className={className}
+      />
+    );
+  }
+
   const { hand, brandHeight } = sizeMap[size];
   const color = variant === "white" ? "#FFFFFF" : variant === "orange" ? "#F47820" : "#1B35CC";
   const taglineColor = variant === "white" ? "rgba(255,255,255,0.7)" : "#1B35CC";
