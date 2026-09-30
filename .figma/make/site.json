@@ -1,0 +1,10 @@
+{
+  "description": "Delivers a premium, elegant digital invitation for The Bros café's soft opening with interactive RSVP, countdown, event details, and music controls.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

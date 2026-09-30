@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+@import 'tailwindcss';
+
+@theme inline {
+  --color-bros-blue: #1B35CC;
+  --color-bros-blue-dark: #0D1B6E;
+  --color-bros-blue-light: #3550E8;
+  --color-bros-orange: #F47820;
+  --color-bros-orange-light: #F9A55A;
+  --color-bros-off-white: #F5F2EC;
+  --color-bros-cream: #EDE9E0;
+  --color-bros-ink: #0D1B6E;
+
+  --font-display: 'Montserrat', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background-color: #F5F2EC;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #F5F2EC;
+  color: #0D1B6E;
+  overflow-x: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.font-display {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-body {
+  font-family: 'DM Sans', sans-serif;
+}
