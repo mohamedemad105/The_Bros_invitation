@@ -1,5 +1,12 @@
 {
-  "description": "Delivers a premium, elegant digital invitation for The Bros café's soft opening with interactive RSVP, countdown, event details, and music controls.",
+  "title": "The Bros Café",
+  "description": "You're invited to the soft opening of The Bros Café ☕",
+  "icons": {
+    "icon": "/images/logo.png"
+  },
+  "openGraph": {
+    "image": "https://the-bros-invitation-yjcr.vercel.app/images/logo.png"
+  },
   "robots": {
     "index": false
   },
