@@ -129,20 +129,8 @@ export function InvitationHero() {
           <img
             src={eventConfig.heroImage}
             alt="Premium iced coffee — The Bros Soft Opening"
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-contain"
             loading="eager"
-          />
-          {/* Blue overlay strip at bottom */}
-          <div
-            className="absolute bottom-0 left-0 right-0 h-1"
-            style={{ backgroundColor: "#1B35CC" }}
-            aria-hidden="true"
-          />
-          {/* Orange dot */}
-          <div
-            className="absolute top-6 right-6 w-3 h-3 rounded-full"
-            style={{ backgroundColor: "#F47820" }}
-            aria-hidden="true"
           />
         </div>
       </div>

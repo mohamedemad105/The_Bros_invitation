@@ -34,5 +34,5 @@ export const eventConfig = {
   audioSrc: "/audio/opening-song.mp3",
 
   heroImage:
-    "/images/invitation2.jpg",
+    "/images/invitation3.jpg",
 };
